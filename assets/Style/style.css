@@ -1,0 +1,43 @@
+body{
+    margin: 2%;
+    border: 1px solid black;
+    background-color: #b3b3b3;
+}
+
+body h1 {
+    text-align: center;
+}
+
+.imageDisplay {
+    line-height: 650px;
+    width: 575px;
+    height: 650px;
+    border: 5px solid black;
+    margin: 0 auto;
+    background-color: #8e68ff;
+    background-image: url(''); /* Default empty background */
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: center;
+    background-size: cover; /* Ensure background image covers the area */
+    background-position: center; /* Center the background image */
+    margin-bottom: 25px;
+    font-size: 150%;
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for background and text */
+}
+
+.images-area {
+    display: flex;
+    justify-content:center ;
+    gap: 10%;
+}
+
+.imageSelected {
+    width: 20%;
+    border: 5px solid black;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
